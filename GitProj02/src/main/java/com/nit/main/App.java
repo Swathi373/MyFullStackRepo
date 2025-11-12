@@ -8,5 +8,7 @@ public class App
     {
         UPIpayment upi = new UPIpayment();
         System.out.println(upi.paymentProcess(37865784876L, 25000.0));
+        System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%");
+        System.out.println(upi.paymentThroughUPIid("ybl@134", 30000.0));
     }
 }
