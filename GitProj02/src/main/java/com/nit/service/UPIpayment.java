@@ -12,8 +12,8 @@ public class UPIpayment
     	return amount+" amount transfered from up id: "+upid;
     }
     
-    public String paymentThroughAccount(long accno, String name, double amount)
+    public String paymentViaBank(String name,long accno, double amount)
     {
-    	return "Account no: "+accno+" , Account holders name: "+name+" , amount transfered: "+amount;
+    	return "Account holders name: "+name+", Account number: "+accno+", amount: "+amount;
     }
 }
